@@ -1,0 +1,3 @@
+    Ошибки/неточности в файле "string_utils.py":
+    1. Слово "capitilize" неверно написано, верно "capitalize";
+    2. Слово "end_with" неверно написано, верно "ends_with"
