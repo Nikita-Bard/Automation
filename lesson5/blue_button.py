@@ -11,7 +11,7 @@ try:
             "xpath", "//button[contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')]")
         blue_button.click()
         sleep(3)
-    # Кликнуть на кнопку "ОК" в модальном окне
+        # Кликнуть на кнопку "ОК" в модальном окне
         chrome.switch_to.alert.accept()
 except Exception as ex:
     print(ex)
