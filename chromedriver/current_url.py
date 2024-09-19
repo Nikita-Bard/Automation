@@ -4,9 +4,9 @@ browser = webdriver.Chrome()
 
 # переходим на сайт
 browser.get("https://www.ya.ru/")
-# title возвращает название заголовка вкладки
-current_title = browser.title
+# current_url возвращает "адресc" сайта
+url = browser.current_url
 
-print(current_title)
+print(url)
 
 browser.quit()
