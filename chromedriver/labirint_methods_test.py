@@ -19,7 +19,7 @@ def open_labirint():
     browser.add_cookie(cookie)
 
 
-def serch(term):
+def search(term):
     # находим все книги по слову Python
     browser.find_element(By.ID, 'search-field').send_keys(term)
     browser.find_element(By.CSS_SELECTOR, 'button[type="submit"]').click()
