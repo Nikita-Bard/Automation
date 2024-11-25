@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 from url import *
-from start_closing import *
 
 
 def test_check(chrome_browser):
