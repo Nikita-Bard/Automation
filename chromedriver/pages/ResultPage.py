@@ -28,6 +28,6 @@ class ResultPage:
         return counter
 
     def get_empty_result_message(self):
-        div = self._driver.find_element(By.CSS_SELECTOR, 'div.search-error')
+        div = self._driver.find_element(By.CSS_SELECTOR, 'div.data-title')
         h1 = div.find_element(By.CSS_SELECTOR, 'h1')
         return h1.text

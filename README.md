@@ -1,2 +1,2 @@
 # Automation
-Automation Pythone
+Automation Python
