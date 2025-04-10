@@ -8,5 +8,5 @@ class Card:
         self.number = number
         self.valiDate = date
 
-    def pay (self, amout):
+    def pay(self, amout: int):
         print("с карты", self.number, "списали", amout)
